@@ -7,3 +7,13 @@ font-weight: bolder;
 h1 { color: blue; }
 
 h2 { color: rgb(128, 0, 196); }
+
+body{
+
+background-image: url();
+
+background-repeat: repeat-y;
+
+background-position: 370px 20px;
+
+}
