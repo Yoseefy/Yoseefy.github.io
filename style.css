@@ -10,7 +10,7 @@ h2 { color: rgb(128, 0, 196); }
 
 body{
 
-font-size: 50px;
+font-size: 20px;
 
 background-image: url("https://i.pinimg.com/736x/99/79/50/997950ee7e06f0dbd76e1ef2f3b1a3a7.jpg");
 
@@ -22,4 +22,20 @@ background-opacity: 0.2;
 
 background-position: 500px 10px;
 
+}
+
+#outer {
+  border: 2px dashed black;
+  overflow: hidden;
+  padding: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 10px;
+  float: left;
+}
+.break {
+  clear: left;
 }
