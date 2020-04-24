@@ -1,0 +1,25 @@
+input[type="url"] {
+background-color: grey;
+font-weight: bold;
+color: orange;
+border: 5px solid black;
+border-radius: 25px;
+margin-top: 50px;
+
+}
+input[type="submit"] {
+border: 5px solid red;
+border-radius : 30px;
+width: 10em;
+margin-left: 45em ;
+}
+
+input[type="text"] {
+background-color: grey;
+font-weight: bold;
+color: orange;
+border: 5px solid black;
+border-radius: 25px;
+margin-top: 50px;
+
+}

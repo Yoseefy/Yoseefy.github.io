@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> Passowrd Validation </title>
+
+	<meta charset="utf-8" />
+	<link href="ValidationStyle.css" type="text/css" rel="stylesheet" />
+	</head>
+
+
+<body>
+<fieldset>
+<form action="demo_form.jsp">
+Please enter a valid URL (https,http):
+<input type="url" name="website" pattern="https?://.+" title=“Please
+enter a URL">
+<div>User Name:
+<input type="text" name="username" size="auto" />
+</div>
+<div>Password:
+<input type="text" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$" />
+</div>
+
+<input type="submit">
+</form>
+</fieldset>
+</body>
