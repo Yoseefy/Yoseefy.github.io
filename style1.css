@@ -1,0 +1,41 @@
+#OV {
+  background: url("https://courses.cs.washington.edu/courses/cse190m/08sp/homework/2/images/rotten_background.png");
+  background-repeat: repeat-x;
+    border-radius: 60px;
+
+}
+
+div.center  {
+  border-radius: 25px 25px 0 0;
+  background: url("https://courses.cs.washington.edu/courses/cse190m/08sp/homework/2/images/rotten_background.png");
+  width: 100%;
+  height: 50px;
+  
+}
+
+
+
+div.Rancid {
+  background: url("https://courses.cs.washington.edu/courses/cse190m/08sp/homework/2/images/rancid_banner.png");
+  height: 3em;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+div.child {
+  border: 2px solid grey;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 30px;
+}
+
+body  {
+  
+  text-align: center;
+  background-image: url("https://courses.cs.washington.edu/courses/cse190m/08sp/homework/2/images/background.png");
+
+}
