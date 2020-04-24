@@ -13,6 +13,11 @@ border-radius : 30px;
 width: 10em;
 margin-left: 45em ;
 }
+input[type="checkbox"] {
+margin-top: 3em;
+margin-left: 3em;
+
+}
 
 input[type="text"] {
 background-color: grey;
