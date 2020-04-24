@@ -12,6 +12,8 @@ border: 5px solid red;
 border-radius : 30px;
 width: 10em;
 margin-left: 45em ;
+background-color: blue;
+color: white;
 }
 input[type="checkbox"] {
 margin-top: 3em;
