@@ -14,7 +14,7 @@ function vowel(h) {
 function reverse(str)
 {
     for (let i = str.length ; i > 0 ; i--) {
- 	  	console.log(str[i-1]);
+ 	  	console.log("Revers:" +str[i-1]);
   }
 }
 function sum(list) {
