@@ -11,11 +11,10 @@ function vowel(h) {
     return h;
 	}
 }
-
 function reverse(str)
 {
-	 for (let i = str.length ; i > -1 ; i--) {
-   	// alert(str[i]);
+    for (let i = str.length ; i > 0 ; i--) {
+ 	  	console.log(str[i-1]);
   }
 }
 function sum(list) {
@@ -23,7 +22,6 @@ function sum(list) {
   for (let i = 0; i < arr.length; i++) {
     total += arr[i];
   }
- // alert(total);
   console.log("Sum Function:  "+ total);
 }
 function multiply(list) {
@@ -31,8 +29,7 @@ function multiply(list) {
   for (let i = 0; i < arr.length; i++) {
     total *= arr[i];
   }
-  //alert(total);
-  console.log("Multiplication Function:  " + total);
+console.log("Multiplication Function:  " + total);
 }
 console.log("isVowel:" + vowel('u'));
 console.log("MaxTwo:   " + maxTwo(5,6));
