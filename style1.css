@@ -5,6 +5,21 @@
 
 }
 
+ul>li {  
+font-weight: bold;
+color: yellow;
+text-decoration: underline;
+}
+
+h2 {
+ color: red;
+}
+h3 {
+ color: blue;
+}
+
+
+
 div.center  {
   border-radius: 25px 25px 0 0;
   background: url("https://courses.cs.washington.edu/courses/cse190m/08sp/homework/2/images/rotten_background.png");
@@ -36,7 +51,10 @@ div.child {
 body  {
   
   text-align: center;
-  background-image: url("https://courses.cs.washington.edu/courses/cse190m/08sp/homework/2/images/background.png");
+
+  background-image: url("https://media.gettyimages.com/photos/tree-against-white-background-picture-id887508916?s=612x612");
+    background-size: auto;
+
 
 }
 
